@@ -54,3 +54,42 @@ img{
     border-radius: 1rem;
 
 }
+
+@media (max-width: 480px) {
+h1{
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+ .choices{
+    gap: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.choice{
+    height: 100px;
+    width: 100px; 
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.score_board{
+    gap: 2rem;
+    font-size: 0.5rem;
+}
+#user_score, #comp_score{
+    font-size: 1rem;
+}
+.msg_contianer{
+    margin: 2rem 1rem 1rem 1rem;
+   
+}
+#msg{
+    font-size: 0.7rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+
+}
+}
